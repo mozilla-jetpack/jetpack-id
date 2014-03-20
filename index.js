@@ -32,5 +32,5 @@ function isGUID (s) {
 }
 
 function isDomain (s) {
-  return /^[0-9a-zA-Z\-]*\@[0-9a-zA-Z\-]+(\.[0-9a-zA-Z\-]+)*$/.test(s);
+  return /^[0-9a-zA-Z\-_]*\@[0-9a-zA-Z\-]+(\.[0-9a-zA-Z\-]+)*$/.test(s);
 }
