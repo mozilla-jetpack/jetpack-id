@@ -1,6 +1,6 @@
 {
   "name": "jetpack-id",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Creates an ID from a Firefox Jetpack manifest",
   "main": "index.js",
   "repository": {
