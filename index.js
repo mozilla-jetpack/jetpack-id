@@ -8,9 +8,8 @@ function getID(manifest) {
     // If manifest.id is already valid (as domain or GUID), use it
     if (isGUID(manifest.id) || isDomain(manifest.id))
       return manifest.id;
-    // Otherwise, append '@jetpack' to the id. `cfx` creates an
-    // invalid `id`, so this needs to be supported
-    return manifest.id + "@jetpack";
+    // Otherwise, this ID is invalid so return `null`
+    return null;
   }
    
   // If no `id` defined, turn `name` into a domain ID,
