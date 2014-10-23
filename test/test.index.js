@@ -14,6 +14,10 @@ describe("jetpack-id", function () {
     var id = "my-addon";
     expect(getID({ id: id })).to.be.equal(id + "@jetpack");
   });
+  it("Returns domain id when `id` contains _", function () {
+    var id = "my_addon@jetpack";
+    expect(getID({ id: id })).to.be.equal(id);
+  });
   it("Returns valid name when `name` exists", function () {
     var id = "my-addon";
     expect(getID({ name: id })).to.be.equal("@" + id);
