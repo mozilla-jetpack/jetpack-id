@@ -23,4 +23,4 @@ getID({ id: "jid1-JtUwP0fsy08AKw" }); // null
 
 ## License
 
-MIT License, copyright (c) 2014 Jordan Santell
+MPL 2.0 License, copyright (c) 2014 Jordan Santell
