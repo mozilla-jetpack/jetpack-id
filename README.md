@@ -1,4 +1,4 @@
-jetpack-id [![Build Status](https://travis-ci.org/jsantell/jetpack-id.png)](https://travis-ci.org/jsantell/jetpack-id)
+jetpack-id [![Build Status](https://travis-ci.org/mozilla-jetpack/jetpack-id.png)](https://travis-ci.org/mozilla-jetpack/jetpack-id)
 ======
 
 Takes a [Jetpack](https://wiki.mozilla.org/Jetpack) addon manifest object and returns a properly formatted ID for the addon. Works with [cfx](https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/cfx) and [jpm](http://github.com/mozilla/jpm) and any Jetpack addon that uses a `package.json`.

@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/jsantell/jetpack-id"
+    "url": "http://github.com/mozilla-jetpack/jetpack-id"
   },
   "author": {
     "name": "Jordan Santell",
